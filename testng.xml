@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="api.api.deleteuser"/>
+      <class name="api.api.Registeruser"/>
+      <class name="api.api.loginuser"/>
+      <class name="api.api.putuser"/>
+      <class name="api.api.Getuser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
